@@ -19,15 +19,9 @@
             <tr>
                 <td>{track.trackName}</td>
                 <td>{track.artistName}</td>
-                <td>{track.albumTitle}</td>
+                <td><a href="./album/{track.albumId}">{track.albumTitle}</a></td>
                 <td>{track.genre}</td>
             </tr>
         {/each}
     </tbody>
 </table>
-
-<pre>
-    <code>
-        {JSON.stringify(data.tracks, null, 2)}
-    </code>
-</pre>
