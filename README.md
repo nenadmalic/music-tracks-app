@@ -8,4 +8,33 @@ The goal of this exercise is to practice working with SvelteKit and how it conne
 WIP
 
 ## Lessons learned
+WIP: Why SvelteKit?
+
+### Connecting to SQLite
+WIP: Install better-sqlite3
+
+### Loading data
+WIP: Testing the query
+WIP: Defining data types 
+
+### Style
+Linking Bulma via CDN
+
+Minimal styling is applied to the app. Here are the steps how it was done.
+1. Visit https://bulma.io/documentation/start/installation/ and copy the CDN HTML <link>.
+2. Open the ./src/app.html file and add the code into the <head> element.
+3. To apply the Bulma table CSS and 'class="table"' to the <table> element in the ./src/routes/+page.svelte file. 
+
+### Routing
+WIP: Routing basics with ./routes directory and +page.svelte.file
+
+WIP: Creating dynamic routes
+
+### Error handling
+WIP
+
+### Updating the data
+WIP
+
+### Server-side search with API-Endpoint
 WIP
