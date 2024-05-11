@@ -1,38 +1,11 @@
-# create-svelte
+# Music tracks app
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Music tracks app built with SvelteKit, SQLite, better-sqlite3, Bulma and [Chinook](https://www.sqlitetutorial.net/sqlite-sample-database/) dataset. Based on the tutorial created by [Philipp Hartenfeller](https://youtu.be/iO4VUbQ6ua4?si=PF23N6uMB0VBU05U).
 
-## Creating a project
+The goal of this exercise is to practice working with SvelteKit and how it connects to and loads and inserts data into SQLite. Secondary goal is to practice working with Git & GitHub.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## How it works
+WIP
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Lessons learned
+WIP
