@@ -54,7 +54,6 @@ export function getAlbumTracks(albumId: number): AlbumTrack[] {
         t.Name AS trackName,
         t.Milliseconds AS trackMs
         FROM tracks t
-        JOIN genres g
         WHERE t.AlbumId = $albumId
         ORDER BY t.TrackId
     `;
