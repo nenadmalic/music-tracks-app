@@ -7,8 +7,11 @@ The goal of this exercise is to practice working with SvelteKit and how it conne
 ## How it works
 WIP
 
+SvelteKit 2.5.7 used.
+
 ## Lessons learned
 WIP: Why SvelteKit?
+
 
 ### Connecting to SQLite
 WIP: Install better-sqlite3
@@ -18,7 +21,8 @@ WIP: Testing the query
 WIP: Defining data types 
 
 ### Style
-Linking Bulma via CDN
+
+#### Linking Bulma via CDN
 
 Minimal styling is applied to the app. Here are the steps how it was done.
 1. Visit https://bulma.io/documentation/start/installation/ and copy the CDN HTML <link>.
@@ -26,9 +30,18 @@ Minimal styling is applied to the app. Here are the steps how it was done.
 3. To apply the Bulma table CSS and 'class="table"' to the <table> element in the ./src/routes/+page.svelte file. 
 
 ### Routing
-WIP: Routing basics with ./routes directory and +page.svelte.file
 
-WIP: Creating dynamic routes
+#### Routing basics with ./src/routes directory and +page.svelte.file
+Routes are the URL paths that users can access. SvelteKit routes are filesystem-based, meaning that the routing of the app is determined by the structure of the files and folders in your project. The routes directory is located in the ./src folder by default. Its location can be changed in the project's configuration in a svelte.config.js file at the root of the project. Example:
+./src/routes
+./src/routes/about
+./src/routes/contact
+
+#### WIP: Creating dynamic routes
+SvelteKit allows for dynamic routing by using file names or directory names that start with '[' and end with ']'. For example, a file at ./src/routes/blog/[id].svelte would correspond to routes like /blog/1, /blog/2, etc., with the id parameter available in your Svelte component.
+
+#### WIP: Capitalized vs non-capitalized file names
+WIP
 
 ### Error handling
 WIP
